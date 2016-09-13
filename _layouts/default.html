@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Jekyll Test v1</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
 </head>
 <body>
 
 
 <header>
-    <h1>Jekyll Test 2</h1>
-    <nav>
-        <ul>
-            <li><a href="{{site.baseurl}}/index.html">about</a></li>
-            <li><a href="{{site.baseurl}}/news.html">news</a></li>
-        </ul>
-    </nav>
+    <h1>Jekyll Test</h1>
+    {% include nav.html navclass='nav-header' %}
 </header>
 
 <main>
@@ -24,6 +20,7 @@
 
 <footer>
     <p>@hello world</p>
+    {% include nav.html navclass='nav-footer' %}
 </footer>
 
 
