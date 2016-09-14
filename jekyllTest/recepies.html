@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<h1>Recepies</h1>
+
+
+<!-- Create an unordered list that contains all the posts
+
+All the recipe posts need to be looped by
+{% for recipes in site.posts %}
+.
+.
+.
+{% endfor %}
+
+Each posts must be inside an li tag  -->
+
+
+<ul>
+  
+   {% for recipes in site.posts %}
+   
+    <li>
+        <a href="{{recipes.source}}">{{recipes.title}}</a>
+        <p>{{recipes.meta}}</p>
+    </li>
+    
+    {% endfor %}
+    
+</ul>
