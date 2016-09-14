@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>Recepies</h1>
+<h1>Tech</h1>
 
 
 <!-- Create an unordered list that contains all the posts
@@ -18,11 +18,11 @@ Each posts must be inside an li tag  -->
 
 <ul>
   
-   {% for recipes in site.categories.recepies %}
+   {% for tech in site.categories.tech limit:2 %}
    
     <li>
-        <a href="{{recipes.source}}">{{recipes.title}}</a>
-        <p>{{recipes.meta}}</p>
+        <a href="{{recipes.source}}">{{tech.title}}</a>
+        <p>{{tech.meta}}</p>
     </li>
     
     {% endfor %}
