@@ -21,7 +21,7 @@ Each posts must be inside an li tag  -->
    {% for recipes in site.categories.recepies %}
    
     <li>
-        <a href="{{recipes.source}}">{{recipes.title}}</a>
+        <a href="{{site.baseurl}}{{recipes.url}}">{{recipes.title}}</a>
         <p>{{recipes.meta}}</p>
     </li>
     

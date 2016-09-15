@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: post-article
 title: New York Cheesecake
 meta: From the ultimate New York baked cheesecake recipe to our quick no-cook cheesecake recipe.
 source: http://www.bbc.co.uk/food/cheesecake

@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: post-article
 title: Power features for the enterprise
 meta: In LibreOffice 5.2, documents can be classified into categories according to TSCP standards. 
 source: https://www.libreoffice.org/discover/new-features/

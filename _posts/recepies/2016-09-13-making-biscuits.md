@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: post-article
 title: Favourite digestive biscuite recipe
 meta: Digestive biscuits are hard, semi-sweet biscuits sometimes known as sweetmeal biscuits.
 source: http://www.bbc.co.uk/food/digestive_biscuit

@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: post-article
 title: KDE
 meta: KDE has finished its fantastic week, celebrating 20 years of hacking and freedom fighting together with Qt, VLC and FSFE in Berlin.
 source: https://dot.kde.org

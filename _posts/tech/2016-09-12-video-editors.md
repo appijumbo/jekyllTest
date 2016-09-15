@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: post-article
 title: Kdenlive
 meta: Since Kdenlive 16.08.1 you can now configure the default duration for all newly created transitions.
 source: https://kdenlive.org/2016/09/configuring-the-default-transition-duration/
