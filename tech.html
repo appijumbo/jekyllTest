@@ -1,27 +1,14 @@
 ---
-layout: default
+layout: news
 ---
 <h1>Tech</h1>
-
-
-<!-- Create an unordered list that contains all the posts
-
-All the recipe posts need to be looped by
-{% for recipes in site.posts %}
-.
-.
-.
-{% endfor %}
-
-Each posts must be inside an li tag  -->
-
 
 <ul>
   
    {% for tech in site.categories.tech limit:2 %}
    
     <li>
-        <a href="{{recipes.source}}">{{tech.title}}</a>
+        <a href="{{tech.source}}">{{tech.title}}</a>
         <p>{{tech.meta}}</p>
     </li>
     
