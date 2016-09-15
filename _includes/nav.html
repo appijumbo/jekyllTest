@@ -5,6 +5,8 @@
             <li><a href="{{site.baseurl}}/tech.html" class="{% if page.url == '/tech.html' %}current{% endif %}">Technology</a></li>
             -->
             <li><a href="{{site.baseurl}}/recepies.html" class="{% if page.url == '/recepies.html' %}current{% endif %}">Recepies</a></li>
-            <li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}current{% endif %}">News</a></li>
+            <li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news' or page.url contains 'tech' %}current{% endif %}">News</a></li>
         </ul>
 </nav>
+
+
