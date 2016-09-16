@@ -1,0 +1,17 @@
+<ul>
+  {% for todos in site.pages %}
+    {% if todos.type == include.type %}
+      <li>
+        <a href="{{site.baseurl}}{{todos.url}}">
+                  <img src="{{site.baseurl}}/img/todos/{{todos.image}}" alt="Photo of {{todos.title}}">
+          <h3>{{todos.title}}</h3>
+          <p>{{todos.meta}}</p>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+
+

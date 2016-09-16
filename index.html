@@ -1,5 +1,21 @@
 ---
 layout: default
+titleAfter: Some stuff
+meta: Tech news, to do lists and recepies
+priority: 1.0
 ---
-<h1>Hello people v2</h1>
-<p>more stuff here</p>
+<h1>Hello people v4</h1>
+<p>using ordered lists now</p>
+
+<!-- NOTE: using an ORDERED list !  -->
+
+<ol>
+  {% for list-items in site.data.todo-list %}
+    <li>
+      <a href="{{site.baseurl}}/todos/{{todos.folder}}/">{{list-items.title}}</a>
+      {{list-items.content | markdownify }}
+    </li>
+  {% endfor %}
+</ol>
+
+

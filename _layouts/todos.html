@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>_layouts/todos.html</h1>
+
+<nav>
+  <ul>
+    {% for todos in site.data.todos-list %}
+      <li>
+        <a href="{{site.baseurl}}/todos/{{todos.folder}}/" class="{% if page.url contains todos.folder %}current{% endif %}">{{todos.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{{content}}
