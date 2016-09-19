@@ -6,6 +6,7 @@ type: car
 Purchased: 2018
 image: nissan-leaf.jpg
 source: https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html
+folder: car
 ---
 
 *Nissan Leaf* See if you might wish to buy this in future

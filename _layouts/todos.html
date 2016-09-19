@@ -6,12 +6,16 @@ layout: default
 
 <nav>
   <ul>
-    {% for todos in site.data.todos-list %}
+    {% for theTodos in site.data.todos-list %}
       <li>
-        <a href="{{site.baseurl}}/todos/{{todos.folder}}/" class="{% if page.url contains todos.folder %}current{% endif %}">{{todos.title}}</a>
+        <a href="{{site.baseurl}}/todos/{{theTodos.folder}}/" class="{% if page.url contains theTodos.folder %}current{% endif %}">{{theTodos.title}}</a>
       </li>
     {% endfor %}
   </ul>
 </nav>
 
 {{content}}
+
+
+
+

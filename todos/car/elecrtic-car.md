@@ -6,6 +6,9 @@ type: car
 Purchased: 2013
 image: fabia.jpg
 source: http://www.skoda.co.uk/models/fabiahatch2015
+folder: car
 ---
 
 *Skoda Fabia* Need to check the tyres on a regular basis
+
+
