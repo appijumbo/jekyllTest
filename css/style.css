@@ -10,10 +10,15 @@ body{
 }
 
 header a {
-    color: #ac5e00;
+    color: #10b910;
     text-decoration: none;
+    font-weight: 700;
 }
 
+h1{
+    margin: 0;
+    padding: 0;
+}
 
 .current{
     color: #fff;
@@ -42,3 +47,16 @@ nav .nav-footer{
     font-size: 0.9rem;
 }
 
+
+.masterHead {
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/masterhead1.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 20vh;
+    color: #ededed;
+    font-size: 2.5em;
+    text-shadow: 4px 4px #393939;
+
+}
