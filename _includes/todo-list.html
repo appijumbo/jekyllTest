@@ -3,9 +3,13 @@
     {% if todos.type == include.type %}
       <li>
         <a href="{{site.baseurl}}{{todos.url}}">
+            
+             {% if todos.image != "none" %}
                   <img src="{{site.baseurl}}/img/todos/{{todos.image}}" alt="Photo of {{todos.title}}">
-          <h3>{{todos.title}}</h3>
-          <p>{{todos.meta}}</p>
+             {% endif %}
+            
+              <h3>{{todos.title}}</h3>
+              <p>{{todos.meta}}</p>
         </a>
       </li>
     {% endif %}

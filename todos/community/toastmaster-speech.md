@@ -4,6 +4,7 @@ title: Toastmaster Speech
 meta: Software as a public service
 Todo-date: 2016
 type: community
+image: none
 source: https://www.youtube.com/watch?v=-Ek368vPBz0&t=1837s
 ---
 
