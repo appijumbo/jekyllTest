@@ -51,7 +51,7 @@ nav .nav-footer{
 .masterHead {
     padding: 0;
     margin: 0;
-    background-image: url("../img/masterhead1.jpg");
+    background-image: url("../img/masterhead.jpg");
     background-position: top;
     background-size: cover;
     height: 20vh;
@@ -59,4 +59,22 @@ nav .nav-footer{
     font-size: 2.5em;
     text-shadow: 4px 4px #393939;
 
+}
+
+.masthead-todos{
+    background-image: url("../img/mastHead-todos.jpg");
+    background-position: bottom;
+}
+
+.mast-tech{
+    background-image: url("../img/mastHead-technology.jpg");
+    background-position: center;
+}
+
+.masthead-recepies{
+     background-image: url("../img/masthead-recepies.jpg");
+}
+
+.masthead-news{
+     background-image: url("../img/masthead-news.jpg");
 }
